@@ -1,4 +1,4 @@
-name: Copy Enhanced Blocklist File
+name: Copy Max Blocklist File
 
 on:
   schedule:
