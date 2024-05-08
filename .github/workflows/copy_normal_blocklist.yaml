@@ -1,10 +1,9 @@
-name: Copy Normal Blocklist File
+name: Copy Blocklist File
 
 on:
   schedule:
     - cron: '0 0 1 * *'  # This will run at 00:00 on the first day of every month
-    workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub UI
-
+  workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub UI
 
 jobs:
   copy-file:
@@ -18,8 +17,8 @@ jobs:
 
       - name: Commit and push if there are changes
         run: |
-          git config --global user.email "git@hootguard.com"
-          git config --global user.name "hootguard"
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
           git add normal-blocklist.txt
-          git commit -m "Update normal blocklist file" -a || echo "Blocklist update"
+          git commit -m "Update blocklist file" -a || echo "No changes to commit"
           git push
