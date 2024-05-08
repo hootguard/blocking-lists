@@ -1,4 +1,4 @@
-name: Copy Blocklist File
+name: Copy Normal Blocklist File
 
 on:
   schedule:
