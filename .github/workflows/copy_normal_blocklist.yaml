@@ -1,0 +1,23 @@
+name: Copy Normal Blocklist File
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # This will run at 00:00 on the first day of every month
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download the blocklist file
+        run: curl -L https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt -o normal-blocklist.txt
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.email "git@hootguard.com"
+          git config --global user.name "hootguard"
+          git add normal-blocklist.txt
+          git commit -m "Update normal blocklist file" -a || echo "Blocklist update"
+          git push
