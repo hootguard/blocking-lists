@@ -5,6 +5,9 @@ on:
     - cron: '0 0 1 * *'  # This will run at 00:00 on the first day of every month
   workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub UI
 
+permissions:  # Setting specific permissions for the GITHUB_TOKEN
+  contents: write  # Allows the workflow to push code
+
 jobs:
   copy-file:
     runs-on: ubuntu-latest
