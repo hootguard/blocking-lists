@@ -17,8 +17,8 @@ jobs:
 
       - name: Commit and push if there are changes
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "git@hootguard.com"
+          git config --global user.name "hootguard"
           git add normal-blocklist.txt
           git commit -m "Update blocklist file" -a || echo "No changes to commit"
           git push
