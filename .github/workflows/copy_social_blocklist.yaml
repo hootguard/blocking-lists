@@ -1,0 +1,27 @@
+name: Copy Social Blocklist File
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # This will run at 00:00 on the first day of every month
+  workflow_dispatch:  # Allows manual triggering of the workflow from the GitHub UI
+
+permissions:  # Setting specific permissions for the GITHUB_TOKEN
+  contents: write  # Allows the workflow to push code
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Download the blocklist file
+        run: curl -L https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts -o social-blocklist.txt
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.email "git@hootguard.com"
+          git config --global user.name "hootguard"
+          git add social-blocklist.txt
+          git commit -m "Update blocklist file" -a || echo "No changes to commit"
+          git push
