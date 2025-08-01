@@ -3,10 +3,10 @@
 # This hosts file is a merged collection of hosts from reputable sources,
 # with a dash of crowd sourcing via GitHub
 #
-# Date: 30 June 2025 18:56:19 (UTC)
+# Date: 31 July 2025 01:20:14 (UTC)
 # The unified hosts file was not used while generating this file.
 # Extensions used to generate this file: porn
-# Number of unique domains: 75,445
+# Number of unique domains: 75,467
 #
 # Fetch the latest version of this file: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts
 # Project home page: https://github.com/StevenBlack/hosts
@@ -19,9 +19,9 @@
 
 # End of custom host records.
 # Title: hostsVN Adult VN
-# Last modified: 30 Jun 2025 10:58 UTC+7
-# Version: 2506301058
-# Blocked: 2.808 domains
+# Last modified: 30 Jul 2025 16:01 UTC+7
+# Version: 2507301601
+# Blocked: 2.830 domains
 # Only include adult domains (Vietnamese language)
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -65,6 +65,7 @@
 0.0.0.0 999live.pro
 0.0.0.0 9lxx.com
 0.0.0.0 9xlove.xyz
+0.0.0.0 ads.nangcuc.link
 0.0.0.0 adultepic.com
 0.0.0.0 alkux.com
 0.0.0.0 alogaidep.xyz
@@ -127,7 +128,10 @@
 0.0.0.0 buomngon.com
 0.0.0.0 buomsex.com
 0.0.0.0 buomtube.tv
+0.0.0.0 buomtv.blog
+0.0.0.0 buomtv.club
 0.0.0.0 buomtv.io
+0.0.0.0 buomtv.live
 0.0.0.0 buomtv.me
 0.0.0.0 buomtv.tv
 0.0.0.0 buomxinh.org
@@ -667,11 +671,13 @@
 0.0.0.0 heotv.net
 0.0.0.0 heoviet.com
 0.0.0.0 heovl.blog
+0.0.0.0 heovl.bot
 0.0.0.0 heovl.cc
 0.0.0.0 heovl.com
 0.0.0.0 heovl.fun
 0.0.0.0 heovl.live
 0.0.0.0 heovl.me
+0.0.0.0 heovl.moe
 0.0.0.0 heovl.net
 0.0.0.0 heovl.tube
 0.0.0.0 heovl.tv
@@ -703,8 +709,11 @@
 0.0.0.0 ihentai.fun
 0.0.0.0 ihentai.to
 0.0.0.0 ihentai.uk
+0.0.0.0 ihentai.ws
 0.0.0.0 img.hentaivv1.com
 0.0.0.0 img.javsubz.net
+0.0.0.0 img.nangcuc.link
+0.0.0.0 img.nangcuc.live
 0.0.0.0 img.vl69.pro
 0.0.0.0 img.xxxphim.top
 0.0.0.0 info.xnxx.gold
@@ -884,6 +893,7 @@
 0.0.0.0 lauxanh.one
 0.0.0.0 lauxanhthiendia.com
 0.0.0.0 laysogaigoi.com
+0.0.0.0 lenlut.blog
 0.0.0.0 lenlut.info
 0.0.0.0 lenlut.net
 0.0.0.0 lenlut.tv
@@ -894,6 +904,9 @@
 0.0.0.0 linksextop1.com
 0.0.0.0 live.mm1cloud.com
 0.0.0.0 live.sexviet88.pro
+0.0.0.0 live18k.com
+0.0.0.0 live18k.me
+0.0.0.0 live18k.vip
 0.0.0.0 livechich.com
 0.0.0.0 loandam.net
 0.0.0.0 loclipnong.com
@@ -1004,6 +1017,7 @@
 0.0.0.0 mupvl.org
 0.0.0.0 myhotlive.tv
 0.0.0.0 mymeyeu.xyz
+0.0.0.0 nangcuc.link
 0.0.0.0 nangcuc.live
 0.0.0.0 nangcuc.org
 0.0.0.0 nenvl.net
@@ -2109,9 +2123,13 @@
 0.0.0.0 thegioianhdephd.blogspot.com
 0.0.0.0 thegioigaigoi.pro
 0.0.0.0 thegioilucsac.com
+0.0.0.0 themhentai.com
 0.0.0.0 themjav.com
 0.0.0.0 themphim.com
+0.0.0.0 thempho.club
 0.0.0.0 thempho.tv
+0.0.0.0 thempho1.com
+0.0.0.0 thempho2.com
 0.0.0.0 themphotv.com
 0.0.0.0 theundergroundclub.net
 0.0.0.0 thichcu.com
@@ -2438,6 +2456,7 @@
 0.0.0.0 vlxx.bio
 0.0.0.0 vlxx.blue
 0.0.0.0 vlxx.buzz
+0.0.0.0 vlxx.bz
 0.0.0.0 vlxx.cc
 0.0.0.0 vlxx.cfd
 0.0.0.0 vlxx.chat
@@ -2446,6 +2465,7 @@
 0.0.0.0 vlxx.com.co
 0.0.0.0 vlxx.contact
 0.0.0.0 vlxx.day
+0.0.0.0 vlxx.digital
 0.0.0.0 vlxx.fan
 0.0.0.0 vlxx.fun
 0.0.0.0 vlxx.gold
@@ -2466,6 +2486,7 @@
 0.0.0.0 vlxx.men
 0.0.0.0 vlxx.mobi
 0.0.0.0 vlxx.moe
+0.0.0.0 vlxx.money
 0.0.0.0 vlxx.mx
 0.0.0.0 vlxx.network
 0.0.0.0 vlxx.pet
@@ -2596,6 +2617,7 @@
 0.0.0.0 www.anhsexvip.me
 0.0.0.0 www.apptimgai.com
 0.0.0.0 www.buomtv.app
+0.0.0.0 www.buomtv.blog
 0.0.0.0 www.buomtv.tv
 0.0.0.0 www.phim18k.com
 0.0.0.0 www.phimsexs.net
